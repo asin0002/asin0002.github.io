@@ -1,0 +1,117 @@
+/* General styles for the body */
+body {
+    background-color: #6a9a95; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Header styles */
+.header {
+    text-align: center;
+    position: relative;
+}
+
+.header-image {
+    width: 100%;
+    height: auto;
+}
+/* Title styling */
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.starfish {
+    float: left;
+    margin-right: 20px;
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+    gap: 150px;
+    font-size: 25px;
+   
+}
+/* Styles for individual navigation links */
+nav ul li {
+    margin: 10px 20px;
+   
+}
+
+nav ul li a {
+    text-decoration: none;
+   text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+
+/* Main content area */
+.stage {
+    height: 1500px; 
+    background-color: #aad4cf;
+    padding: 20px; 
+    width: 80%; 
+    max-width: 1000px; 
+    margin: 20px auto; 
+}
+
+
+
+
+
+
+.radio-options {
+    display: flex;
+    gap: 10px; 
+    align-items: center;
+}
+
+
+
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+.radio-options {
+    display: flex;
+    gap: 10px; 
+    align-items: center;
+    padding:10px;
+}
+
+
+.contact label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.contact button {
+    display: inline-block;
+    margin: 1px;
+    padding: 5px 20px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+
+
+.footer {
+    text-align: right;
+    font-size: 14px;
+}
+ 
