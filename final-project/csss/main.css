@@ -1,0 +1,524 @@
+
+   .h2-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+   }
+  
+   .h3-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+   }
+  
+  /* FONT */
+  body {
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+    background-color: #fff;
+    line-height: 1.2;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+ 
+ 
+  
+  ul {
+    list-style: none;
+  }*/
+  
+  .container {
+    max-width: 1200px;
+    width:100%;
+    margin: 0 auto;
+    padding: 0 ;
+  }
+  
+  /* HEADER SECTION */
+  header {
+    background-color: #222;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  /* LOGO */
+  .logo-container {
+    background-color:  #c78c06;
+    padding: 5px 0;
+    margin-bottom: 0;
+    width: 100%;
+  }
+  
+  .logo {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding-left: 20px;
+  }
+  /* nav */
+  .nav ul {
+    background-color: #222;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav ul li a {
+    display: flex;
+    color: #c78c06;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px ;
+    text-decoration: none;
+  }
+  
+  /* SEARCH STYLE */
+  .search-form {
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    background-color: #222;
+    padding: 1rem 0;
+    width: 20%;
+
+    margin: 0;
+  }
+  
+  .search-form input[type="text"] {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: none;
+    flex: 1;
+  }
+  
+  .search-form button {
+    background-color: #222;
+    border: 2px solid  #c78c06;
+    padding: 0.65rem 0.9rem;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+  }
+  
+  
+  
+  /*intro section*/
+  .intro-section {
+    background-image: url('../images/main-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+  }
+  .intro-section img{
+        width: 100%;
+        height: auto;
+        display: block;
+  }
+  
+  .intro-section .container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding:5px 50px;
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    border-radius: 10px;
+  }
+  
+  .intro-title {
+    font-size: 3.9rem;
+    margin-bottom: 1.2rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 2rem;
+  }
+  
+  .intro-section .section-text {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+ .service-button {
+    display: inline-block;
+    margin-top: 2rem;
+    background-color: #c78c06;
+    color: black;
+    padding: 30px 50px;
+    font-weight: normal;
+    border: none;
+    font-size: 1.3rem;
+    text-align: left;
+  }
+  
+
+  
+  /* about us section */
+  .aboutus-section {
+    background-color:  #ffe6ac;
+    padding: 20px 0;
+  }
+  
+  .aboutus-section .h2-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .aboutus-section .section-text {
+    font-size: 0.9rem;
+    line-height: 1.8;
+  }
+  
+  .aboutus-section .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .about-image {
+    flex: 1 1 45%;
+  }
+  
+  .div-text {
+    flex: 1 1 45%;
+  }
+  
+  /* services section*/
+  .services-section {
+    background-color: white;
+    padding: 20px 0;
+  }
+  
+  .services-list {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .services-item.service-two {
+    grid-column: span 3;
+  }
+  
+  .services-item {
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    background-color:  #ffe6ac;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  .services-item-image {
+    width: 100%;
+    display: block;
+  }
+  
+  .services-item .div-text {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  
+  .services-item h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .services-item p {
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+  }
+  
+  .services-item .service-button {
+    background-color:  #222; 
+    color: white; 
+    padding: 1.2rem 1.5rem;
+    font-weight: normal;
+    text-align: left;
+    margin-top: 1rem;
+    display: block;
+    font-size: 1rem;
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    box-shadow: none;
+  }
+  
+  .services-item .service-button:hover {
+    background-color: #c78c06;
+    color: #222;
+  }
+  /* vision section */
+  .vision-section {
+    background-image: url('../images/vision.jpg');
+    background-size: cover;
+    background-position: center;
+    padding:  20px 0;
+    color: white;
+  }
+  
+  .vision-section .container {
+    max-width: 1200px;
+    text-align: left;
+    padding: 60px 40px;
+    margin: 0 auto;
+    border-radius: 8px;
+  }
+  
+  .vision-section .section-text {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: white;
+    margin-bottom: 1.5rem;
+  }
+  
+  .vision-section .service-button {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #222;
+    color: white;
+    border: 1px solid  #c78c06;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: left;
+  }
+  /* team section */
+  .team-section {
+    padding:  20px 0;
+    background-color:  #c78c06;
+  }
+  
+  .teamgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 0px;
+  }
+  
+  .team-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .team-box.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .team-box.text {
+    background-color:  #ffe6ac;
+    padding: 30px;
+    font: size 15px;;
+  }
+  
+  .member-name {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .team-position {
+    font-weight: bold;
+    font-size: 1rem;
+    border-bottom: 2px solid  #c78c06;
+   
+    font-style:normal;
+  }
+  
+  @media (max-width: 768px) {
+    .teamgrid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+
+
+  
+
+/* Contact section styling */
+.contact {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .contact-title {
+    font: size 3rem;;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact label {
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 20px;
+  }
+  
+  .contact input[type="text"],
+  .contact input[type="email"],
+  .contact textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #222;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+  
+  
+  .contact textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  /* send button styling */
+  .contact button
+   {
+    margin-top: 15px;
+    background-color: #222;
+    color: #c78c06;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  
+  /* map section */
+  .map {
+    width: 100%;
+    height: 450px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /*form section */
+  .hours-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+  }
+  
+  .hours-table th,
+  .hours-table td {
+    border: 1px solid  #222;
+    padding: 12px 10px;
+    text-align: left;
+  }
+  
+  .hours-table th {
+    background-color: #ffe6ac;
+    font-weight: bold;
+  }
+  
+  li {
+    list-style: none;
+  }*/
+  
+  /*footer*/
+  footer {
+    background-color:  #222;
+    color:  #c78c06;
+    padding: 20px;
+    text-align: left; 
+    font-size: 14px;
+  }
+  
+  footer a {
+    color:#c78c06;
+    text-decoration: underline;
+  }
+  
+  /* mobile app media query section */
+  
+  @media (max-width: 768px) {
+    /* header */
+    header .container {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+    /* nav */
+    .nav ul {
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+  
+    .nav a {
+      font-size: 15px;
+      font-weight: bold;
+    }
+    /* search */
+    .search-form input {
+      flex: 1;
+      padding: 8px;
+      font-size: 15px;
+    }
+  
+    .search-form {
+      width: 100%;
+    }
+  
+    .search-form button {
+      padding: 8px 12px;
+      font-size: 15px;
+    }
+    /* About us*/
+    .aboutus-section .container {
+      flex-direction: column;
+    }
+    /* services */
+    .services-list {
+      grid-template-columns: 1fr;
+    }
+
+
+     /* vision */
+     .vision-section .container {
+        max-width: 100%;
+        padding: 30px 20px;
+      }
+    }
+    
+    /* team */
+    .teamgrid {
+      grid-template-columns: 1fr;
+    }
+    /*contact */
+    .contact-list {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "form"
+        "hours"
+        "map";
+    }
+   
+    
+  
